@@ -1,0 +1,85 @@
+Narayana Reddy 
+
+	LinkedIn: https://www.linkedin.com/in/pochireddygari-narayanareddy    	               Email: pnarayanareddy218@gmail.com
+
+	GitHub: https://github.com/Narayanapochi	                                                   Mobile: +91-6302673567 
+
+SKILLS 
+
+Languages:  Java, Python 
+
+Frameworks: HTML,CSS
+
+Tools : Wireshark, Nmap, Kali Linux, Metasploit
+
+Soft Skills: Problem-Solving, Analytical Thinking, Quick Learning, Adaptability 
+
+PROJECTS 
+
+E-commerce Web Application: Link                                                                                                                 Nov’23-Dec23             
+
+Architected a scalable MERN-stack platform for product discovery and catalog management.
+
+Implemented secure JWT authentication and role-based access to safeguard user data.
+
+Engineered a high-performance shopping cart with persistent state and real-time updates.
+
+Integrated Stripe API for secure, PCI-compliant payment processing and checkout.
+
+Optimized UX with a mobile-first, responsive interface and streamlined transaction path.
+
+             Tech: React, Node.js, MongoDB, Stripe API
+
+Hotel reservation system: link
+
+Developed a Java-based Hotel Reservation System enabling seamless room booking, payment processing, and reservation management. 
+
+Applied object-oriented programming (OOP) principles by designing modular classes (Hotel, Room, Reservation, Payment) for scalability and maintainability. 
+
+Built a console-based application to manage bookings, check room availability, and process transactions efficiently. 
+
+
+
+TRAINING 
+
+Data Structures & Algorithms Training-Cipher Schools : Link                                                                        Jun’20-Jul’23  
+
+Covered essential concepts including arrays, linked lists, stacks, queues, trees, graphs ,and  dynamic programming.  
+
+Tackled 100+ coding challenges, strengthening analytical reasoning and logical problem-solving.  
+
+Examined time/space complexity and applied efficient algorithmic strategies.   
+
+Completed a Java console-based Library Management System as the capstone project.  
+
+ 
+
+CERTIFICATES 
+
+Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate | Oracle University | Link                                    Mar' 26 
+
+Object Oriented Programming | IAM Neo Platform | Link                                                                                     Aug24- Dec24 Responsive Web Design |  Free Code Camp Link                                                                                                          Nov’23
+
+ACHIEVEMENTS 
+
+	IBM Technical proficiency Badge                                                                                                                  Nov 2024     
+
+ Earned IBM’s verified proficiency badge for Introduction to Hardware and Operating Systems via Coursera & Credly.   
+
+	Code Of Duty Hackathon                                                                                                                                                                Mar 2024  
+
+  Participated in the Code of Duty Web Hackathon 2024, demonstrating strong teamwork and innovative problemsolving
+
+.  
+
+EDUCATION 
+
+Lovely Professional University                                                                                                                   Phagwara, Punjab Bachelor of Technology - Computer Science and Engineering; CGPA: 6.2                                                    Aug' 23 - Present 
+
+Sri Chaitanya Junior College                                                                                                      Vijayawada, Andhra Pradesh 
+
+Intermediate; Percentage: 87.5%                                                                                                                      Jun' 21 - Jun' 23 
+
+Sri Guru Raja E.M School                                                                                                                Nandyal, Andhra Pradesh
+
+SSC; Percentage: 98%                                                                                                                                     Jun' 20 - Jun' 21
