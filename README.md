@@ -1,4 +1,4 @@
-# 🚀 Nalli Yashaswi — 3D Animated Portfolio
+# 🚀 Narayana Reddy — 3D Animated Portfolio
 
 A stunning, professional Django portfolio with:
 - ✨ 3D animated cube & particle background
