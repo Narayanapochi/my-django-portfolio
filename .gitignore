@@ -26,8 +26,8 @@ env/
 ENV/
 
 # ── Django ──
-db.sqlite3
-db.sqlite3-journal
+# db.sqlite3
+# db.sqlite3-journal
 *.log
 media/
 staticfiles/
@@ -60,7 +60,7 @@ node_modules/
 .vercel
 .env*.local
 
-db.sqlite3
+# db.sqlite3
 .env
 media/
 __pycache__/
