@@ -1691,7 +1691,13 @@
       <div class="hero-cta">
         <a href="#projects" class="btn-primary">View Projects ↓</a>
         <a href="#contact" class="btn-outline">Get In Touch</a>
-        <a href="/static/Narayana_CV.pdf" class="btn-outline" target="_blank" rel="noopener">📄 View CV</a>
+        {% if config.cv_url %}
+        <a href="{{ config.cv_url }}" class="btn-outline" target="_blank" rel="noopener">📄 View CV</a>
+        {% elif config.resume_file %}
+        <a href="{{ config.resume_file.url }}" class="btn-outline" target="_blank" rel="noopener">📄 View CV</a>
+        {% else %}
+        <a href="{% static 'Narayana_CV.pdf' %}" class="btn-outline" target="_blank" rel="noopener">📄 View CV</a>
+        {% endif %}
       </div>
       <div class="hero-scroll-hint">
         <div class="scroll-line"></div>
