@@ -29,7 +29,7 @@ ENV/
 # db.sqlite3
 # db.sqlite3-journal
 *.log
-media/
+# media/
 staticfiles/
 static_collected/
 
@@ -62,5 +62,5 @@ node_modules/
 
 # db.sqlite3
 .env
-media/
+# media/
 __pycache__/
