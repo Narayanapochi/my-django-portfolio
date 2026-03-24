@@ -11,7 +11,10 @@ from .models import (SiteConfig, Skill, Project, Training,
 
 
 def get_site_config():
-    config, _ = SiteConfig.objects.get_or_create(id=1)
+    # Use read-only query to avoid Vercel AWS Lambda SQLite Lock Errors
+    config = SiteConfig.objects.first()
+    if not config:
+        config = SiteConfig(name="Portfolio", bio="Settings loading...")
     return config
 
 
@@ -51,10 +54,13 @@ def contact(request):
         if not all([name, email, subject, message]):
             return JsonResponse({'success': False, 'error': 'All fields are required.'})
 
-        # Save to database
-        ContactMessage.objects.create(
-            name=name, email=email, subject=subject, message=message
-        )
+        # Save to database gracefully (AWS Lambda SQLite is read-only)
+        try:
+            ContactMessage.objects.create(
+                name=name, email=email, subject=subject, message=message
+            )
+        except Exception:
+            pass  # Suppress error, we will still email the user below!
 
         # Send email
         full_message = f"""
