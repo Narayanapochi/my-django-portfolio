@@ -80,7 +80,7 @@ p2 = Project.objects.create(
     order=2
 )
 ProjectBullet.objects.create(project=p2, text="Applied OOP principles by designing modular classes (Hotel, Room, Reservation, Payment) for scalability.", order=1)
-ProjectBullet.objects.create(project=p2, text="Built a console-based application to manage bookings, check room availability, and process transactions.", order=2)
+ProjectBullet.objects.create(project=p2, text="Built a console-based application to manage bookings, check room availability, and process transactions efficiently.", order=2)
 
 # Training
 t1 = Training.objects.create(
